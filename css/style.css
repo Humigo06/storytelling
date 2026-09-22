@@ -1,8 +1,16 @@
+/* Header and image */
 header {
     background-color: #d8e3e1;
     text-align: center;
     font-size: 20px;
 }
+img {
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
+/* h2 and h3 */
 h2 {
     font-size: 28px;
     text-align: center;
@@ -11,18 +19,14 @@ h3 {
     font-size: 24px;
     text-align: center;
 }
+/* Background color and font */
 body {
     background-color:#d8e3e1;
 }
 * {
     font-family: palatino linotype, serif;
 }
-img {
-    width: 50%;
-    border-radius: 8px;
-    display: block;
-    margin: auto;
-}
+/* button class */
 .button {
     background-color: #6fd172;
     color: white;
@@ -33,6 +37,7 @@ img {
     display: inline-block;
     margin: 10px;
 }
+/* story_card class */
 .story_card {
     background-color: #e6eeec;
     padding: 20px;
@@ -41,26 +46,21 @@ img {
     margin: 25px;
     border-radius: 8px
 }
-#overview_game {
-    text-align: center;
-    font-size: 18px;
-}
-#elements_in_game {
-    text-align: center;
-    font-size: 18px;
-}
-#elements_of_storytelling {
-    text-align: center;
-    font-size: 18px;
-}
-#examples_p {
-    text-align: center;
-    font-size: 18px;
-}
+/* Specific changes */
+#overview_game,
+#elements_in_game,
+#elements_of_storytelling,
+#examples_p,
 #examples {
     font-size: 18px;
 }
-
+/* List alignment fix*/
+#plot_list,
+#theme_list,
+#elements_of_storytelling_list {
+    text-align: left;
+}
+/* Flexbox for theme section in page2.html */
 #theme_wrapper {
     display: flex;
     gap: 20px;
@@ -68,23 +68,11 @@ img {
 #theme_p, #theme_list {
     flex: 1;
 }
-
-#theme_list {
-    text-align: left;
-}
-
-#plot_list {
-    text-align: left;
-}
-
+/* Flexbox for elements of storytelling section in index.html*/
 #elements_of_storytelling_wrapper {
     display: flex;
     gap: 20px;
 }
 #elements_of_storytelling_p, #elements_of_storytelling_list {
     flex: 1;
-}
-
-#elements_of_storytelling_list {
-    text-align: left;
 }
