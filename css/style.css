@@ -76,3 +76,15 @@ img {
 #plot_list {
     text-align: left;
 }
+
+#elements_of_storytelling_wrapper {
+    display: flex;
+    gap: 20px;
+}
+#elements_of_storytelling_p, #elements_of_storytelling_list {
+    flex: 1;
+}
+
+#elements_of_storytelling_list {
+    text-align: left;
+}
