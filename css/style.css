@@ -60,3 +60,19 @@ img {
 #examples {
     font-size: 18px;
 }
+
+#theme_wrapper {
+    display: flex;
+    gap: 20px;
+}
+#theme_p, #theme_list {
+    flex: 1;
+}
+
+#theme_list {
+    text-align: left;
+}
+
+#plot_list {
+    text-align: left;
+}
