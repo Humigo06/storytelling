@@ -68,11 +68,42 @@ body {
 #theme_p, #theme_list {
     flex: 1;
 }
-/* Flexbox for elements of storytelling section in index.html*/
+/* Flexbox for elements of storytelling section in index.html */
 #elements_of_storytelling_wrapper {
     display: flex;
     gap: 20px;
 }
 #elements_of_storytelling_p, #elements_of_storytelling_list {
     flex: 1;
+}
+/* Media Query */
+@media (max-width: 600px) {
+    body, .button {
+        font-size: 14px;
+    }
+    #elements_of_storytelling_wrapper {
+        flex-direction: column;
+        font-size: 16px;
+        row-gap: 1px;
+    }
+    #theme_wrapper {
+        flex-direction: column;
+        font-size: 14px;
+        row-gap: 1px;
+    }
+    #overview_game,
+    #elements_in_game,
+    #examples, 
+    #examples_p {
+        font-size: 16px;
+    }
+    header, h3 {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
 }
