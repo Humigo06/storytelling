@@ -76,7 +76,7 @@ body {
 #elements_of_storytelling_p, #elements_of_storytelling_list {
     flex: 1;
 }
-/* Media Query */
+/* Media Queriers */
 @media (max-width: 600px) {
     body, .button {
         font-size: 14px;
@@ -105,5 +105,35 @@ body {
     }
     h2 {
         font-size: 24px;
+    }
+}
+@media (max-width: 380px) {
+    body, .button {
+        font-size: 12px;
+    }
+    #elements_of_storytelling_wrapper {
+        flex-direction: column;
+        font-size: 12px;
+        row-gap: 1px;
+    }
+    #theme_wrapper {
+        flex-direction: column;
+        font-size: 12px;
+        row-gap: 1px;
+    }
+    #overview_game,
+    #elements_in_game,
+    #examples, 
+    #examples_p {
+        font-size: 14px;
+    }
+    header, h3 {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
     }
 }
