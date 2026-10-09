@@ -14,14 +14,21 @@
 
         <header class="text-center mb-4" id="page2_header">
             <h1>Storytelling in Fire Emblem: Three Houses</h1>
-            <img src="./images/fe3h.avif" alt="The cover art for the Fire Emblem: Three Houses video game." width="50%"/>
+            
         </header>
         <main id="page2_content">
             <!-- Overview of Fire Emblem: Three Houses game -->
-            <section id="overview_game">
-                <h2>What is Fire Emblem: Three Houses?</h2>
-                <p>Fire Emblem: Three Houses is a tactical role-playing game developed by Intelligent Systems and Nintendo. It takes place in a fictional land called Fódlan, in a world mostly inspired by medieval knights. The player takes on the role as a mercenary turned professor at a prestigious school.</p>
-            </section>
+            <div class="row">
+            
+                <section class="col-md-6 mt-4 mb-4" id="overview_game">
+                    <h2>What is Fire Emblem: Three Houses?</h2>
+                    <p>Fire Emblem: Three Houses is a tactical role-playing game developed by Intelligent Systems and Nintendo. It takes place in a fictional land called Fódlan, in a world mostly inspired by medieval knights. The player takes on the role as a mercenary turned professor at a prestigious school.</p>
+                </section>
+                <section class="col-md-6 mt-4 mb-4">
+                    <img src="./images/fe3h.avif" alt="The cover art for the Fire Emblem: Three Houses video game." width="80%"/>
+                </section>
+            
+            </div>
             <!-- Intro to specific ways elements of storytelling are used in-game -->
             <section id="elements_in_game">
                 <h2>Elements of Storytelling in the Game</h2>
@@ -53,23 +60,29 @@
                 <p>The core conflict of the game is the different approaches each character has to better the world. No one character is objectively wrong or right. The player is able to experience different viewpoints by choosing different houses and routes. This makes the conflict more complicated than good against evil.</p>
             </section>
             <!-- Overview of theme element in-game -->
-            <section id="theme_in-game" class="story_card">
-                <h3>Themes</h3>
-                <div id="theme_wrapper">
-                    <section id="theme_p">
+            <div class="row">
+                <!-- <section id="theme_in-game" class="story_card"> -->
+                <section class="col-md-6 mb-4">
+                    <h3>Themes</h3>
+                    <!-- <div id="theme_wrapper"> -->
+                        <!-- <section id="theme_p"> -->
                         <p>These themes are explored through the characters and events of the game. Different routes express these themes in different ways, furthering the emphasis on differing perspectives.</p>
-                    </section>
-                    <section id="theme_list">
-                        <ul>
-                            <li>Morality of War</li>
-                            <li>Burden of trauma and lineage</li>
-                            <li>Different Perspectives</li>
-                        </ul>
-                    </section>
-                </div>
-            </section>
+                </section>
+                <!-- <section id="theme_list"> -->
+                <section class="col-md-6 mt-5">
+                    <ul>
+                        <li>Morality of War</li>
+                        <li>Burden of trauma and lineage</li>
+                        <li>Different Perspectives</li>
+                    </ul>
+                </section>
+                    <!--</div>
+                </section> -->
+            </div>
         <footer id="page2_footer">
-            <a class="button" href="index.html">Go back to the home page.</a>
+            <p class="text-center">
+                <a href="index.html" class="btn btn-success">Go back to the home page.</a>
+            </p>
         </footer>
         </main>
 
