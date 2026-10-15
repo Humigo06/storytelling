@@ -94,10 +94,12 @@ body {
     #overview_game,
     #elements_in_game,
     #examples, 
-    #examples_p {
+    #examples_p,
+    #elements_of_storytelling_p,
+    #elements_of_storytelling_list {
         font-size: 16px;
     }
-    header, h3 {
+    header, h3, #lead {
         font-size: 18px;
     }
     h1 {
@@ -124,10 +126,12 @@ body {
     #overview_game,
     #elements_in_game,
     #examples, 
-    #examples_p {
+    #examples_p,
+    #elements_of_storytelling_p,
+    #elements_of_storytelling_list {
         font-size: 14px;
     }
-    header, h3 {
+    header, h3, #lead {
         font-size: 16px;
     }
     h1 {
